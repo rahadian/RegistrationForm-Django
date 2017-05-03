@@ -22,7 +22,7 @@ And in settings.py change the DEBUG to False value
 
     > DATABASES = {
     
-    'default': {
+    >'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'formku',
         'USER': 'root',
