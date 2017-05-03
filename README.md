@@ -7,5 +7,6 @@ This project made by my friend and I. I designed and made a web from django and 
 # How do I run this project ?
 1. Make a database (ex:formku) then exit.
 2. Go to /var/www/html
-3. 
+3. Start django project with this command :
+> django-admin startproject formku
 
