@@ -20,7 +20,7 @@ And in settings.py change the DEBUG to False value
 
 8. In settings.py, edit the DATABASES and ALLOWED_HOSTS sections
 
-    DATABASES = {
+    > DATABASES = {
     
     'default': {
         'ENGINE': 'django.db.backends.mysql',
