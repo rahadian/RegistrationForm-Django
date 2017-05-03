@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="//bootswatch.com/united/bootstrap.css">
+<link rel"stylesheet" href="//www.w3schools.com/w3css/3/w3.css">
+<meta name="viewport" content="width=device-width, height=device-height">
+{% if all_users %}
+<div class="w3-container w3-orange">
+    <center><h1>DAFTAR PESERTA YANG TELAH REGISTRASI</h1> </center>
+</div>
+<br>
+<br>
+<center><a class="btn btn-default" href='/logout' role="button">Logout </a> 
+<a class="btn btn-default" href="{% url 'users:export_to_csv' %}" role="button">Export to CSV</a></center>
+<br>
+<table class="table table-responsive">
+<thead>
+  <tr>
+    <td>Waktu</td>
+    <td>Nama</td>
+    <td>Email</td>
+    <td>Phone</td>
+    <td>Pekerjaan</td>
+    <td>Institusi</td>
+  </tr>
+</thead>
+<tbody>
+    {% for user in all_users %}
+
+ <tr>
+                        <td>{{ user.time}}</td>
+                        <td>{{ user.nama}}</td>
+                        <td>{{ user.email}}</td>
+                        <td>{{ user.phone}}</td>
+                        <td>{{ user.pekerjaan}}</td>
+                        <td>{{ user.institusi}}</td>
+                </tr>
+	{% endfor %}
+{#  In case  no user exists.  #}
+{% else %}
+<center><h3>Belum Ada Peserta yang Terdaftar.</h3></center>
+<br>
+<br>
+<center><a class="btn btn-default" href='/users/register' role="button">Back </a></center>
+<br>
+
+{% endif %}

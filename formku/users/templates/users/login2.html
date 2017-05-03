@@ -1,0 +1,16 @@
+
+<html>
+<title> LOGIN </title>
+{% block content %}
+	{% if form.errors %}
+		<p>Your username and password didn't match. Please try again</p>
+	{% endif %}
+<h2><center>LOGIN</center></h2>
+<form method="post">
+{% csrf_token %}
+<input id="id_username" maxlength="254" name="username" type="text"/>
+<input id="id_password" name="password" type="password"/>
+<button type="submit">Login</button>	
+</form>
+{% endblock %}
+</html>
