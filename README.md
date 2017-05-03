@@ -31,10 +31,11 @@ And in settings.py change the DEBUG to False value
         'PORT': '',
     }
     }
+    
        
 change the USER and PASSWORD with your mysql user and password. If you confused, you can copy settings.py in this repo to your directory.
 
-    > ALLOWED_HOSTS = ['192.168.37.6','127.0.0.1']
+   > ALLOWED_HOSTS = ['192.168.37.6','127.0.0.1']
     
 Change the 192.168.37.6 with your ip address.
 
