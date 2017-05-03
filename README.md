@@ -12,3 +12,4 @@ This project made by my friend and I. I designed and made a web from django and 
 4. Enter the formku directory
 5. Start app in project use this command :
     > python manage.py startapp users
+6. Copy the directories from this repo to your directory and adjust them.
