@@ -16,7 +16,7 @@ This project made by my friend and I. I designed and made a web from django and 
 7. In formku directory, edit the settings.py file and add this to INSTALLED_APPS section
     > 'users.apps.UsersConfig',
     
-Change the DEBUG to False
+And in settings.py change the DEBUG to False
 
 8. In settings.py, edit the DATABASES and ALLOWED_HOSTS sections
 
