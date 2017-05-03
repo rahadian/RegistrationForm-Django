@@ -13,3 +13,6 @@ This project made by my friend and I. I designed and made a web from django and 
 5. Start app in project use this command :
     > python manage.py startapp users
 6. Copy the directories from this repo to your directory and adjust them.
+7. In formku directory, edit the settings.py file and add this to INSTALLED_APPS section
+    > 'users.apps.UsersConfig',
+8. 
