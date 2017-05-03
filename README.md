@@ -18,6 +18,7 @@ This project made by my friend and I. I designed and made a web from django and 
     
 Change the DEBUG to False
 8. In settings.py, edit the DATABASES and ALLOWED_HOSTS sections
+
     >DATABASES = {
     
     'default': {
@@ -29,6 +30,7 @@ Change the DEBUG to False
         'PORT': '',
     }
     }
+    
     
      > ALLOWED_HOSTS = ['192.168.37.6','127.0.0.1']
     
