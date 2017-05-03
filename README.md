@@ -8,5 +8,5 @@ This project made by my friend and I. I designed and made a web from django and 
 1. Make a database (ex:formku) then exit.
 2. Go to /var/www/html
 3. Start django project with this command :
-> django-admin startproject formku
+    > django-admin startproject formku
 
