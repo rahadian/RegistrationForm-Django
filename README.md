@@ -50,4 +50,4 @@ Change the 192.168.37.6 with your ip address.
     
 Change 192.168.37.6 with your ip address.
 
-That's all. Thank you :+1
+That's all. Thank you :+1:
