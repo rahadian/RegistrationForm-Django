@@ -24,6 +24,7 @@ This project made by my friend and I. I designed and made a web from django and 
         'HOST': '127.0.0.1',
         'PORT': '',
     }
+change the USER and PASSWORD with your mysql user and password.
 
 8. Back to the formku project directory and do migrations with this command
     > python manage.py makemigrations users
