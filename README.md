@@ -15,8 +15,12 @@ This project made by my friend and I. I designed and made a web from django and 
 6. Copy the directories from this repo to your directory and adjust them.
 7. In formku directory, edit the settings.py file and add this to INSTALLED_APPS section
     > 'users.apps.UsersConfig',
-8. In settings.py, edit the DATABASES section
-    > 'default': {
+    
+Change the DEBUG to False
+8. In settings.py, edit the DATABASES and ALLOWED_HOSTS sections
+    >DATABASES = { 
+    
+    >'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'formku',
         'USER': 'root',
@@ -24,6 +28,9 @@ This project made by my friend and I. I designed and made a web from django and 
         'HOST': '127.0.0.1',
         'PORT': '',
     }
+    }
+    
+    > ALLOWED_HOSTS = ['192.168.37.6','127.0.0.1']
     
 change the USER and PASSWORD with your mysql user and password. If you confused, you can copy settings.py in this repo to your directory.
 
@@ -31,3 +38,7 @@ change the USER and PASSWORD with your mysql user and password. If you confused,
     > python manage.py makemigrations users
 10. Implement it to database use this command
     > python manage.py migrate
+11. Make superuser use this command
+    > python manage.py createsuperuser
+12. Run the server 
+    > python manage.py runserver
