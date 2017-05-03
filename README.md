@@ -25,8 +25,9 @@ This project made by my friend and I. I designed and made a web from django and 
         'PORT': '',
     }
     
-change the USER and PASSWORD with your mysql user and password.
+change the USER and PASSWORD with your mysql user and password. If you confused, you can copy settings.py in this repo to your directory.
 
-8. Back to the formku project directory and do migrations with this command
+9. Back to the formku project directory and do migrations with this command
     > python manage.py makemigrations users
-9. 
+10. Implement it to database use this command
+    > python manage.py migrate
