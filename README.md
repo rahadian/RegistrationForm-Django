@@ -17,6 +17,7 @@ This project made by my friend and I. I designed and made a web from django and 
     > 'users.apps.UsersConfig',
     
 Change the DEBUG to False
+
 8. In settings.py, edit the DATABASES and ALLOWED_HOSTS sections
 
     DATABASES = {
