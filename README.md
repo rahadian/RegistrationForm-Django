@@ -9,4 +9,6 @@ This project made by my friend and I. I designed and made a web from django and 
 2. Go to /var/www/html
 3. Start django project with this command :
     > django-admin startproject formku
-
+4. Enter the formku directory
+5. Start app in project use this command :
+    > python manage.py startapp users
