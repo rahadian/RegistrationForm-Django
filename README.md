@@ -16,7 +16,7 @@ This project made by my friend and I. I designed and made a web from django and 
 7. In formku directory, edit the settings.py file and add this to INSTALLED_APPS section
     > 'users.apps.UsersConfig',
     
-And in settings.py change the DEBUG to False
+And in settings.py change the DEBUG to False value
 
 8. In settings.py, edit the DATABASES and ALLOWED_HOSTS sections
 
@@ -31,11 +31,12 @@ And in settings.py change the DEBUG to False
         'PORT': '',
     }
     }
-    
-    
-> ALLOWED_HOSTS = ['192.168.37.6','127.0.0.1']
-    
+       
 change the USER and PASSWORD with your mysql user and password. If you confused, you can copy settings.py in this repo to your directory.
+
+    > ALLOWED_HOSTS = ['192.168.37.6','127.0.0.1']
+    
+Change the 192.168.37.6 with your ip address.
 
 9. Back to the formku project directory and do migrations with this command
     > python manage.py makemigrations users
