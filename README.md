@@ -46,4 +46,8 @@ Change the 192.168.37.6 with your ip address.
 11. Make superuser use this command
     > python manage.py createsuperuser
 12. Run the server 
-    > python manage.py runserver
+    > python manage.py runserver 192.168.37.6:8000
+    
+Change 192.168.37.6 with your ip address.
+
+That's all. Thank you :+1
