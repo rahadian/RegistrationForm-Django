@@ -1,7 +1,9 @@
 body{
 	background: url(sakura.jpg);
 	background-color: #444;
-	
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
 }
 .vertical-offset-100{
 	padding-top:100px;
