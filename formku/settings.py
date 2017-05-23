@@ -107,3 +107,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 LOGIN_REDIRECT_URL='/'
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smptp.gmail.com'
+EMAIL_HOST_USER = 'gmailuser@gmail.com'
+EMAIL_HOST_PASSWORD = 'password'
+EMAIL_PORT = 587
+
