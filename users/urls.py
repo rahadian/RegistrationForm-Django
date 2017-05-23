@@ -10,6 +10,7 @@ urlpatterns = [
     # /users/signup:url to take the input from the user
     #url(r'^$', TemplateView.as_view(template_name='register.html'), name="home"),
     url(r'^register$', views.register, name='register'),
+    url(r'^delete$', views.delete, name='delete_data'),
     #/users/showdata:url to display the list of users stored on the database
     url(r'^showdata$', views.showdata, name='showdata'),
     url(r'^export/csv/$', views.export_to_csv, name='export_to_csv'),
